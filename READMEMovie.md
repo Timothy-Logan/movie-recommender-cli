@@ -1,4 +1,4 @@
-# Movie Recommendation CLI
+f# Movie Recommendation CLI
 
 A command-line application that helps you discover similar movies based on various criteria using The Movie Database (TMDB) API.
 
