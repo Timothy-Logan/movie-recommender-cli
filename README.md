@@ -37,7 +37,31 @@ pip install -r requirements.txt
 # Set up your API key
 # Edit movie_recommender.py and add your TMDB API key on line 16
 ```
+## Troubleshooting
 
+### Common Issues
+
+**"ModuleNotFoundError: No module named 'requests'"**
+```bash
+pip install -r requirements.txt
+```
+
+**"API Key Error"**
+- Verify your TMDB API key is correct
+- Check that you've activated your API key on TMDB website
+- Wait a few minutes after key generation for activation
+
+**"No results found"**
+- Check your internet connection
+- Verify movie title spelling
+- Try a more popular movie title
+
+### Getting Help
+
+If you encounter issues:
+1. Check the [TMDB API Status](https://developer.themoviedb.org/docs)
+2. Verify your API key is active
+3. Open an issue on this repository with error details
 ## Usage
 
 ### Basic Command
